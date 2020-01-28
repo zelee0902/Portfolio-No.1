@@ -1,0 +1,263 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* / {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	outline: none;
+	box-sizing: border-box;
+	cursor: default;
+	transition: .3s
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big,
+	blockquote, body, canvas, caption, center, cite, code, dd, del, details,
+	dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form,
+	h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd,
+	label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby,
+	s, samp, section, small, span, strike, strong, sub, summary, sup, table,
+	tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, textarea {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body, button, input, textarea {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    background: #fafafa;
+    overflow-y: scroll;
+}
+
+#jinstalog {
+	z-index: 0;
+}
+
+.mainlog2{
+    background-color: #fafafa;
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+
+.mainlog {
+	margin-top: 80px;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+}
+
+#jinstalog, article, div, footer, header, main, nav, section {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.contlog-01 {
+    min-height: 100%;
+    overflow: hidden;
+    padding-bottom: 44px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.arti-01 {
+    margin: 0 auto;
+    max-width: 935px;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+} 
+
+.contlog-02 {
+    color: #262626;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.contlog-02-inner {
+    background-color: #fff;
+    box-shadow: rgba(41, 42, 43, 0.16) 0px 2px 6px -2px;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0 0 0;
+}
+
+.contlog-02-inner:last-child {
+	padding: 0;	
+}
+
+p.intro {
+	color: rgb(62, 64, 66);
+    font-size: 16px;
+    text-align: center;
+}
+
+p.intro span {
+	color: #7176b5;
+	font-weight: 600;
+}
+
+.contlog-02-logo {
+	margin: 22px auto 12px;
+	cursor: pointer;
+}
+
+img.jin_logo {
+	display: block;
+    overflow: hidden;
+    width: 230px;
+}
+
+.contlog-03 {
+	margin-bottom: 10px;
+}
+
+.contlog-03-form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.field {
+	width: 100%;
+    position: relative;
+    clear: both;
+    text-align: center;
+}
+
+
+input.field_input, input[type=text], input[type=password] {
+	border: 1px solid #efefef;
+    padding: 5px 20px;
+    padding: 10px;
+    font-size: 0.9em;
+    font-weight: 200;
+    display: block;
+    width: 67%;
+    margin: 5px auto;
+    -webkit-appearance: none;
+    -webkit-border-radius: none;
+    border-radius: 0;
+    -moz-border-radius: none;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    background-color: #fafafa;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+button[type=button], button[type=submit]{
+	margin: 0px auto;
+    width: 99%;
+    overflow: hidden;
+    border: 0;
+    -webkit-appearance: none;
+    -webkit-border-horizontal-spacing: inherit;
+    padding: 15px;
+    text-align: center;
+    background: #fff;
+    color: #7176b5;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+button[type=button]:hover, button[type=submit]:hover {
+	color: #ececec;
+	transition: all 600ms;
+}
+
+span#same {
+	font-size: 0.9em;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0 10px 57px;
+}
+
+
+/* 반응형 */
+
+
+@media screen and (max-width: 1023px) {
+main.margin {
+    margin-top: 45%;
+}
+}

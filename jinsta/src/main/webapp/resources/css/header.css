@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+*{ 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	list-style: none; 
+ 	text-decoration: none;
+ 	outline: none;
+ 	box-sizing: border-box; 
+ 	cursor: default; 
+ } 
+body,html {
+	margin: 0; 
+	padding: 0; 
+	font: inherit;
+    vertical-align: baseline;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.jin_header {
+	font-family: "Segoe UI";
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: rgba(41, 42, 43, 0.16) 0px 2px 6px -2px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9;
+    -webkit-box-align: center;
+    align-items: center;
+    transition: height 0.2s ease-in-out 0s;
+}
+
+.jin_header-in {
+	margin : 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 900px;
+    padding: 15px;
+    -webkit-transition: height .2s ease-in-out;
+    transition: height .2s ease-in-out;
+    width: 100%;
+}
+
+.jin_header-in-in {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 9999 0%;
+    -ms-flex: 1 9999 0%;
+    flex: 1 9999 0%;
+    min-width: 40px;
+}
+.jin_header-in-in img.jin_logo {
+	width:150px;
+}
+.jin_ul {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.jin_ul-nav {
+    display: contents;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    white-space: nowrap;
+}
+.jin_ul-list a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 0 0 15px;
+}
+.jin_ul-list > a > span {
+	cursor: pointer;
+}
+/* .jin_ul-list a.selected {
+	font-weight:bold;
+}
+.jin_ul-list a:visited, .jin_ul-list a:hover{
+    font-weight:bold;
+}
+ */
